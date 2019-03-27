@@ -1,0 +1,94 @@
+body {
+    background-image: url(https://cdn.dribbble.com/users/673549/screenshots/3159371/videogamecontroller_background.jpg);
+}
+
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 14.28%);
+    grid-template-rows: auto;
+    align-content: center;
+    justify-content: center;
+    background-color:black;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #cccccc;
+    position: fixed;
+}
+
+.name {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    align-self: center;
+    justify-self: center;
+    color: #ffffff;
+    background-color: black;
+    font-size: 150%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1.2em; 
+}
+
+.container {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: auto;
+    align-content: center;
+    justify-content: center;
+}    
+
+.play-window {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: center;
+    justify-self: center;
+    background-color: black;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:50px;
+    margin-top: 100px;
+}
+
+.start {
+    text-decoration: underline;
+    font-size: 100%;
+}
+
+.container-2 {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: auto;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.image {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.footer {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: auto;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.copyright {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: center;
+    justify-self: center;
+    background-color: black;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+}
