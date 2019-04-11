@@ -9,40 +9,59 @@
 
 <body>
     <header class="header">
+        <div class="head-pic-1">
+            <img class="head-pic-class" src="https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif">
+        </div>
         <div class="name">
-            <h1>Hangman</h1>
+            <h1>Galaxy Hangman</h1>
+        </div>
+        <div class="head-pic-2">
+                <img class="head-pic-class" src="https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif">
         </div>
     </header>
-<!--if i use the original hardcoded version change title and replace spans and delete this comment-->
+
     <section class="container">
+            <div class="message">
+                <h3 id="message-txt"></h3>
+            </div>
             <div class="play-window">
                 <h2 class="start">Choose A Letter To Begin!</h2>
                 <br><br>
                 <p>Word:</p>
-                <br><br>
-                <div id="correct"><span>?</span><span>?</span><span>?</span><span>?</span>
+                <br>
+                <div>
+                    <h3 id="word-blanks"></h3>
                 </div>
                 <br><br>
                 <p>Incorrect:</p>
-                <br><br>
-                <div id="incorrect"><span></span></div>
                 <br>
-            <br>
+                <div id="wrong-guesses"></div>
+                <br><br>
+                <div>
+                    <span>Guesses Left:</span><span class="stats">Wins:</span><span class="stats">Losses:</span>
+                </div>
+                <br>
+                <div>
+                    <span id="guesses-left">9</span><span id="win-counter">0</span><span id="loss-counter">0</span>
+                </div>
+            <br><br>
        
-    
         <section class="container-2">
             <div class="image">
-                <img src="http://datagenetics.com/blog/april12012/hangmand.jpg">
+                <img id="slide" src="http://datagenetics.com/blog/april12012/hangmand.jpg">
             </div>
         </section>
 
-            </div>
+        </div>
+        <div class="end-message">
+            <h3 id="end-txt"></h3>
+        </div>
     </section>
 </body>
 
 <footer class="footer">
     <div class="copyright">
-        <p>Copyright &#169;</p>
+        <img class="footer-gif" src="https://media.giphy.com/media/ZzyOiywrAjnXi/giphy.gif">
     </div>
 </footer>
 <script type="text/javascript" src="assets/javascript/game.js"></script>

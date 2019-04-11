@@ -1,23 +1,43 @@
 body {
-    background-image: url(https://cdn.dribbble.com/users/673549/screenshots/3159371/videogamecontroller_background.jpg);
+    background-image: url(https://media.wired.com/photos/5b896e2b9c837e2f56c19a92/191:100/pass/SPoW_8312018_3.jpg);
 }
 
 .header {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(7, 14.28%);
+    grid-template-columns: repeat(5, 25%);
     grid-template-rows: auto;
     align-content: center;
     justify-content: center;
-    background-color:black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NUX6t64MaMo3iPmZNH6k1Jvlzkw8Q7cw6-PByD7Qve3mAJdy);
     margin-bottom: 2em;
     border-bottom: 2px solid #cccccc;
     position: fixed;
 }
 
-.name {
+.head-pic-1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: left;
+    justify-self: left;
+}
+
+.head-pic-2 {
     grid-column-start: 4;
     grid-column-end: 4;
+    align-self: right;
+    justify-self: right;
+}
+
+.head-pic-class {
+    height: 60px;
+    width: 130px;
+    padding-top: 7px;
+}
+
+.name {
+    grid-column-start: 3;
+    grid-column-end: 3;
     align-self: center;
     justify-self: center;
     color: #ffffff;
@@ -34,7 +54,31 @@ body {
     grid-template-rows: auto;
     align-content: center;
     justify-content: center;
-}    
+}  
+
+.message {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+#message-txt {
+    color: #ffffff;
+    font-size: 75px;
+}
+
+.end-message {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+#end-txt {
+    color: #ffffff;
+    font-size: 50px;
+}
 
 .play-window {
     grid-column-start: 2;
@@ -46,11 +90,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding:50px;
     margin-top: 100px;
+    border: 2px solid #cccccc;
 }
 
 .start {
     text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 100%;
+    padding-left: 45px;
+}
+
+.stats {
+    padding-left: 40px;
+}
+
+#win-counter {
+    padding-left: 130px;
+}
+
+#loss-counter {
+    padding-left: 70px;
 }
 
 .container-2 {
@@ -60,15 +119,18 @@ body {
     grid-template-rows: auto;
     align-content: center;
     justify-content: center;
-
 }
 
 .image {
     grid-column-start: 2;
     grid-column-end: 2;
     align-self: center;
-    justify-self: center;
-    
+    justify-self: center;    
+}
+
+#slide {
+    height: 150px;
+    width:300px;
 }
 
 .footer {
@@ -78,8 +140,14 @@ body {
     grid-template-rows: auto;
     align-content: center;
     justify-content: center;
-    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9NUX6t64MaMo3iPmZNH6k1Jvlzkw8Q7cw6-PByD7Qve3mAJdy);
     margin-top: 20px;
+    border-top: 2px solid #cccccc;
+}
+
+.footer-gif {
+    height: 50px;
+    width: 150px;
 }
 
 .copyright {
